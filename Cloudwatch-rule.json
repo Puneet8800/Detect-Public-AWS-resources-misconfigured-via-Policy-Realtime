@@ -1,0 +1,26 @@
+{
+  "source": [
+    "aws.sqs",
+    "aws.sns",
+    "aws.ecr",
+    "aws.kms",
+    "aws.secretsmanager",
+    "aws.glacier",
+    "aws.es"
+  ],
+  "detail": {
+    "eventName": [
+      "CreateQueue",
+      "CreateTopic",
+      "SetQueueAttributes",
+      "SetTopicAttributes",
+      "SetRepositoryPolicy",
+      "PutKeyPolicy",
+      "CreateKey",
+      "PutResourcePolicy",
+      "SetVaultAccessPolicy",
+      "UpdateElasticsearchDomainConfig",
+      "CreateElasticsearchDomain"
+    ]
+  }
+}
